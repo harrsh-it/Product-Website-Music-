@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+
+/* navigation bar codes----------------------------------------------------------------------  */
+
+
+
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    padding: 30px;
+    background-color: #270082;
+    position: sticky;
+}
+
+.mytunestext{
+    font-size: 40px;
+    font-weight: 700; 
+    padding-left: 50px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(0, 0, 0);
+}
+
+.links{
+    display: flex;
+    gap: 20px;
+    font-size: x-large;
+    padding-top: 13px;
+}
+
+.textarea{
+    padding: 80px;
+    font-size: x-large;
+    text-align: justify;
+}
+
+.heading h1{
+    font-size: xx-large;
+}
+.text2{
+    padding-left: 50px;
+}
+
+.list{
+    padding-left: 100px;
+    padding-top: 20px;
+}
+
+/* footer code starts from here -----------------------------------------------------------*/
+
+
+
+
+.footerup{
+    height: 130px;
+    background-color: #270082;
+    color: white;
+    display: flex;
+    gap: 130px;
+    font-size: larger;
+    padding: 130px;
+    padding-top: 50px;
+}
+
+ul{
+    list-style: none;
+}
+
+.footerdown{
+    height: 40px;
+    padding: 10px;
+    text-align: center;
+    background-color: #281154;
+    color: white;
+}

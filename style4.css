@@ -1,0 +1,133 @@
+/* ----------------------------------------------------------giftcard ------------------------------------------------------------------ */
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+/* navigation bar k coades */
+
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    padding: 30px;
+    background-color: #826c00;
+    position: sticky;
+}
+
+.mytunestext{
+    font-size: 40px;
+    font-weight: 700; 
+    padding-left: 50px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(222, 205, 139);
+}
+
+.links{
+    display: flex;
+    gap: 20px;
+    font-size: x-large;
+    padding-top: 13px;
+}
+
+.giftcard{
+    height: 100vh;
+    background-image: url(images/yellowish.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+    color: black;
+}
+.giftcard h1{
+    text-align: center;
+    font-size: 65px;
+    padding-top: 200px;
+}
+.giftcard p{
+    text-align: center;
+    font-size: x-large;
+    font-family: sans-serif;
+}
+
+
+/* text atarts from here  */
+
+
+
+.textarea{
+    display: flex;
+}
+.img img{
+    height: 400px;
+    padding: 50px;
+}
+.text1{
+    padding: 50px;
+    padding-top: 60px;
+}
+/* button ka code starts from here --------------------------------------------------------------------------- */
+
+
+
+.text1 input{
+    padding: 10px 20px;
+    background-color: tan;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    font-size: large;
+}
+
+/* button code khatam here ---------------------------------------------------------------------------------- */
+.text1 h3{
+    font-size: xx-large;
+}
+.text1 p{
+    font-size: x-large;
+    text-align: justify;
+}
+
+
+
+
+
+/* footer start from here  */
+
+
+
+
+.footerup{
+    height: 130px;
+    background-color: #826c00;
+    color: white;
+    display: flex;
+    gap: 130px;
+    font-size: larger;
+    padding: 130px;
+    padding-top: 50px;
+}
+
+ul{
+    list-style: none;
+}
+
+.footerdown{
+    height: 40px;
+    padding: 10px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
